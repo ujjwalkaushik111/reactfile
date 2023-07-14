@@ -11,7 +11,9 @@ import img2line from "../assets/image/png/line-2up.png";
 
 const Services = () => {
   return (
-    <section class="Homepage-css overflow-hidden py-5">
+    <section class="Homepage-css py-5 position-relative">
+      <div className="blur-moon-services"></div>
+      <div className="blur-moon-services-2"></div>
       <div className="position-relative">
         <h2 className="fw-light fs-lg ff-sunflower white-color text-uppercase text-center">
           <img

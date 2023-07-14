@@ -14,7 +14,8 @@ import img2line from "../assets/image/png/line-2up.png";
 
 const About = () => {
   return (
-    <section className="Homepage-css py-5">
+    <section className="Homepage-css py-5 position-relative">
+      <div class=" blur-moon-about"></div>
       <Container>
         <div className="text-center py-5">
           <div className="position-relative">
@@ -54,16 +55,16 @@ const About = () => {
         </div>
         <div className="d-flex align-items-center gap-3 justify-content-center mb-5 ">
           <a href="https://instagram.com/">
-            <img src={imginsta} alt="#" />
+            <img className="imgup" src={imginsta} alt="#" />
           </a>
           <a href="https://twitter.com/">
-            <img src={imgtwitter} alt="#" />
+            <img className="imgup" src={imgtwitter} alt="#" />
           </a>
           <a href="https://facebook.com/">
-            <img src={imgfacebook} alt="#" />
+            <img className="imgup" src={imgfacebook} alt="#" />
           </a>
           <a href="https://youtube.com/">
-            <img src={imgyoutube} alt="#" />
+            <img className="imgup" src={imgyoutube} alt="#" />
           </a>
         </div>
       </Container>

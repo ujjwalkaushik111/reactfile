@@ -1,11 +1,12 @@
 import React from "react";
 import imglogo from "../assets/image/png/karmiclogo.png";
+import { Container } from "react-bootstrap";
 const MyNav = () => {
   return (
     <section className="Homepage-css">
-      <div></div>
+      <div class="blur-moon-hero"></div>
       <header className="py-3">
-        <div className="container_css">
+        <Container>
           <nav className="d-flex justify-content-between align-items-center">
             <a href="#logo">
               <img src={imglogo} alt="logo" />
@@ -45,7 +46,7 @@ const MyNav = () => {
               Connect Wallet
             </button>
           </nav>
-        </div>
+        </Container>
       </header>
     </section>
   );

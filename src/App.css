@@ -26,6 +26,57 @@
 
 }
 
+.blur-moon-hero,
+.blur-moon-services {
+    background-color: #fff;
+    -webkit-filter: blur(124px);
+    filter: blur(124px);
+    position: absolute;
+}
+
+.blur-moon-services-2 {
+    background-color: #fff;
+    -webkit-filter: blur(124px);
+    filter: blur(124px);
+    position: absolute;
+}
+
+.blur-moon-hero {
+    height: 184px;
+    left: -2%;
+    top: -2%;
+    width: 184px;
+}
+
+.blur-moon-services {
+    height: 182px;
+    right: 0;
+    top: -10%;
+    width: 182px;
+}
+
+.blur-moon-services-2 {
+    bottom: -41%;
+    height: 209px;
+    left: 0;
+    width: 209px;
+}
+
+.blur-moon-about {
+    height: 226px;
+    right: 0;
+    top: 1%;
+    width: 226px;
+}
+
+.blur-moon-about,
+.blur-moon-services-2 {
+    background-color: #fff;
+    -webkit-filter: blur(124px);
+    filter: blur(124px);
+    position: absolute;
+}
+
 .name1 {
     color: var(--white, #FFF);
     font-family: Sunflower;
@@ -207,6 +258,9 @@ p {
 
 .B-view:hover {
     transform: translateY(-10px);
+    border: 1px solid var(--white, #040404);
+    background-color: white;
+    color: black;
 
 }
 
@@ -225,6 +279,8 @@ p {
 
 .B-view-2:hover {
     transform: translateY(-10px);
+    background-color: black;
+    color: #fff;
 }
 
 
@@ -324,6 +380,14 @@ p {
 
 .opacity_last {
     opacity: 0.699999988079071;
+}
+
+.imgup {
+    transition: all 500ms linear;
+}
+
+.imgup:hover {
+    transform: translateY(-30%);
 }
 
 .line {

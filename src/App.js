@@ -6,6 +6,7 @@ import UpcomingProjects from "./components/UpcomingProjects";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import { useEffect } from "react";
 
 function App() {
   return (
